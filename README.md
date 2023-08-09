@@ -21,3 +21,9 @@ Repository for all projects on this Bootcamp
 - React.js
 - Deploying a Web Application
 - Authentication & Security
+
+## Projects Made:
+
+## Resources
+
+Bootcamp link: https://www.udemy.com/course/the-complete-web-development-bootcamp/
