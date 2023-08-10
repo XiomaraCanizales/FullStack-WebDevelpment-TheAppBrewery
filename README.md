@@ -23,6 +23,7 @@ Repository for all projects on this Bootcamp
 - Authentication & Security
 
 ## Projects Made:
+1. Portfolio Website (HTML only)
 
 ## Resources
 
