@@ -4,7 +4,6 @@
 Repository for all projects on this Bootcamp
 
 ## Content:
-
 - HTML
 - CSS
 - Bootstrap
@@ -24,6 +23,7 @@ Repository for all projects on this Bootcamp
 
 ## Projects Made:
 1. Portfolio Website (HTML only)
+2. Resume (HTML only)
 
 ## Resources
 
