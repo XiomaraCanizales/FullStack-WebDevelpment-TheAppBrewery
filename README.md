@@ -4,7 +4,7 @@ Repository for all projects on this Bootcamp
 ## Content:
 - HTML
 - CSS
-- Bootstrap
+<!-- - Bootstrap
 - Web Design
 - JavaScript
 - jQuery
@@ -17,7 +17,7 @@ Repository for all projects on this Bootcamp
 - Mongoose
 - React.js
 - Deploying a Web Application
-- Authentication & Security
+- Authentication & Security -->
 
 ## Projects Made:
 1. Portfolio Website (HTML only)
