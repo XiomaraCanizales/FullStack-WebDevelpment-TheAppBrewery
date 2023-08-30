@@ -1,6 +1,4 @@
-# Full-Stack Web Developer Bootcamp
-## by the App Brewery
-
+# Full-Stack Web Developer Bootcamp by the App Brewery
 Repository for all projects on this Bootcamp
 
 ## Content:
