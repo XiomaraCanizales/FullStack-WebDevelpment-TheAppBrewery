@@ -20,8 +20,9 @@ Repository for all projects on this Bootcamp
 - Authentication & Security -->
 
 ## Projects Made:
-1. Portfolio Website (HTML only)
-2. Resume (HTML only)
+1. Portfolio Website (HTML)
+2. Resume (HTML)
+3. Motivation Poster (HTML & CSS)
 
 ## Resources
 
