@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #29272B;
+    padding: 3rem;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pricing-plan {
+    width: 500px;
+    background-color: #F3F6F5;
+    text-align: center;
+    padding: 2rem;
+}
+
+.plan-title {
+    font-size: 1.75rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.plan-price { 
+    font-size: 2.5rem; 
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.plan-features { 
+    margin: 1rem; 
+    list-style: none;
+}
+
+.plan-features li { padding: 0.5rem; }
+
+.plan-button {
+    background-color: #D7B0AC;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 1150px) {
+    .pricing-container {
+        flex-direction: row;
+        height: 100vh;
+    }
+}

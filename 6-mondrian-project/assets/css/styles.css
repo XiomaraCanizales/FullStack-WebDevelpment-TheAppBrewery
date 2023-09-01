@@ -1,0 +1,41 @@
+/* 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+*/
+
+.container {
+    width: 748px;
+    height: 748px;
+    margin: 5rem auto;
+
+    background-color: #000;
+    display: grid;
+    gap: 9px;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 415px 130px 156px 20px;
+    grid-template-areas: 
+    "one two two two"
+    "three four four five"
+    "three four four six"
+    "seven eight nine six"
+    ;
+}
+
+.red { background-color: #E72F24;}
+.blue { background-color: #004592; }
+.yellow { background-color: #F9D01E; }
+.white { background-color: #F0F1EC;}
+
+.one { grid-area: one;}
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.seven { grid-area: seven; }
+.eight { grid-area: eight; }
+.nine { grid-area: nine; }

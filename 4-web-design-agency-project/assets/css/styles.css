@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;700&display=swap');
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+/* global */
+body {
+    background-color: #F1EFE7;
+    font-family: 'League Spartan', sans-serif;
+}
+
+p { font-size: 1.5rem; text-align: justify;}
+
+img { max-width: 100%; }
+
+.color-text { color: #274690; }
+
+/*  main */
+.main {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-rows: 9.5rem auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+            "logo ."
+            "title title"
+            "card-left card-right"
+    ;
+    gap: 2rem;
+}
+
+.logo { grid-area: logo; }
+
+h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    grid-area: title;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left { grid-area: card-left; }
+
+.right { grid-area: card-right; }
+
+.card-image { 
+    padding-right: 1.5rem;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-text { width: 80%; }
+
+footer {
+    position: relative;
+    float: right;
+    padding: 2rem 1rem 1rem;
+}
+
+@media (max-width: 1000px) {
+    h1 { font-size: 5rem;}
+}
+
+@media (max-width: 700px){
+    .main {
+        grid-template-areas: 
+        "logo ."
+        "title title"
+        "card-left card-left"
+        "card-right card-right"
+;
+    }
+}

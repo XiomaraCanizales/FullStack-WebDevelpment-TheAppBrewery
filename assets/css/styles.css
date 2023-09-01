@@ -85,6 +85,7 @@ main { margin: 3rem 0; }
 .box {
     transition: transform .5s ease-in-out;
     margin: 2rem;
+    box-shadow: 6px 6px 18px 4px rgba(0,0,0,0.2);
 }
 
 .box img {

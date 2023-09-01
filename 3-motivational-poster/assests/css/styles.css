@@ -11,11 +11,12 @@ body {
     font-family: 'Libre Baskerville', serif;
     color: white;
     font-size: 16px;
+    padding: 4rem;
 }
 
 .container {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 25%;
     text-align: center;
 }
