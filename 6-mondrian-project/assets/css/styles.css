@@ -1,17 +1,15 @@
-/* 
-    Gap Colour: #000
-    White: #F0F1EC
-    Red: #E72F24
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
-*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
 .container {
     width: 748px;
     height: 748px;
-    margin: 5rem auto;
-
     background-color: #000;
     display: grid;
     gap: 9px;
@@ -25,17 +23,23 @@
     ;
 }
 
-.red { background-color: #E72F24;}
-.blue { background-color: #004592; }
-.yellow { background-color: #F9D01E; }
 .white { background-color: #F0F1EC;}
 
-.one { grid-area: one;}
+.one { 
+    grid-area: one;
+    background-color: #E72F24;
+}
 .two { grid-area: two; }
 .three { grid-area: three; }
 .four { grid-area: four; }
-.five { grid-area: five; }
+.five { 
+    grid-area: five; 
+    background-color: #004592;
+}
 .six { grid-area: six; }
 .seven { grid-area: seven; }
-.eight { grid-area: eight; }
+.eigth { 
+    grid-area: eight; 
+    background-color: #F9D01E;
+}
 .nine { grid-area: nine; }
