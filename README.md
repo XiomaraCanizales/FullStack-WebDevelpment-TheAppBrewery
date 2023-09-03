@@ -5,9 +5,9 @@ Repository for all projects on this Bootcamp
 - HTML
 - CSS
 - Bootstrap
-<!--
 - Web Design
 - JavaScript
+<!--
 - jQuery
 - Node.js
 - Express.js
@@ -29,6 +29,7 @@ Repository for all projects on this Bootcamp
 5. Pricing Table (HTML & CSS)
 6. Mondrian Project (HTML & CSS)
 7. TingDog (Bootstrap)
+8. Dice Game (HTML, CSS & JS)
 
 ## Resources
 
