@@ -30,7 +30,8 @@ Repository for all projects on this Bootcamp
 6. Mondrian Project (HTML & CSS)
 7. TingDog (Bootstrap)
 8. Dice Game (HTML, CSS & JS)
-9. Drum Kit
+9. Drum Kit (HTML, CSS & JS)
+10. Simon Game (jQuery)
 
 ## Resources
 
