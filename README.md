@@ -7,8 +7,8 @@ Repository for all projects on this Bootcamp
 - Bootstrap
 - Web Design
 - JavaScript
-<!--
 - jQuery
+<!--
 - Node.js
 - Express.js
 - API's
