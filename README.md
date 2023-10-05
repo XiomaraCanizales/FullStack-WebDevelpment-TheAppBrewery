@@ -8,9 +8,8 @@ Repository for all projects on this Bootcamp
 - Web Design
 - JavaScript
 - jQuery
-<!--
 - Node.js
-- Express.js
+<!--- Express.js
 - API's
 - Git & GitHub
 - SQL
