@@ -9,7 +9,9 @@ Repository for all projects on this Bootcamp
 - JavaScript
 - jQuery
 - Node.js
-<!--- Express.js
+- Express.js
+<!--- 
+- EJS
 - API's
 - Git & GitHub
 - SQL
@@ -31,6 +33,7 @@ Repository for all projects on this Bootcamp
 8. Dice Game (HTML, CSS & JS)
 9. Drum Kit (HTML, CSS & JS)
 10. Simon Game (jQuery)
+11. QR code generator (node.js)
 
 ## Resources
 

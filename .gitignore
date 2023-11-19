@@ -15,5 +15,7 @@ assets/images/.DS_Store
 9-drum-kit/.DS_Store
 10-simon-game/.DS_Store
 10-simon-game/assets/.DS_Store
-exercises/node/2-npm/node_modules
+exercises/2-node/2-npm/node_modules
 11-QR-code-generator/node_modules
+exercises/3-express/1-first-server/node_modules
+exercises/3-express/2-middleware/node_modules
