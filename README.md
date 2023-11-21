@@ -10,8 +10,8 @@ Repository for all projects on this Bootcamp
 - jQuery
 - Node.js
 - Express.js
-<!--- 
 - EJS
+<!--- 
 - API's
 - Git & GitHub
 - SQL

@@ -20,3 +20,10 @@ exercises/2-node/2-npm/node_modules
 exercises/3-express/1-first-server/node_modules
 exercises/3-express/2-middleware/node_modules
 12-secrets-project/node_modules
+exercises/4-ejs/.DS_Store
+exercises/4-ejs/1-advice/node_modules
+exercises/4-ejs/2-tags/node_modules
+exercises/4-ejs/3-partials/node_modules
+exercises/4-ejs/3-partials/.DS_Store
+13-band-name-generator/node_modules
+13-band-name-generator/.DS_Store
