@@ -1,0 +1,20 @@
+{
+  "name": "3-blog_web_application",
+  "version": "1.0.0",
+  "description": "The goal of this project is to create a Blog Web Application using Node.js, Express.js and EJS. The application will allow users to create and view blog posts. Posts will not persist between session as no database will be used in this version of the application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "XC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0"
+  }
+}

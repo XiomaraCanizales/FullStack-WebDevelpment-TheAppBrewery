@@ -1,0 +1,31 @@
+<%- include('partials/header.ejs')  %>
+
+<header class="header">
+    <h1>Welcome to my Blog</h1>
+</header>
+
+<div class="container">
+<a href="/add-post" class="btn">Add New Post</a>
+
+<% for (const post of posts) { %>
+    <article class="post">
+        <header class="header-title">
+            <h2><%= post.title %></h2>
+            <div class="links">
+                <a href="/update-post/<%= post.title %>">
+                    <i class="fa-solid fa-pen"></i>
+                </a>
+                <a href="/delete-post/<%= post.title %>">
+                    <i class="fa-solid fa-trash"></i>
+                </a>
+            </div>
+        </header>
+        
+        <p><%= post.content %></p>
+    </article>
+<% } %>
+
+</div>
+
+<%- include('partials/footer.ejs')  %>
+
