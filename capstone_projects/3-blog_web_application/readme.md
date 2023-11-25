@@ -27,12 +27,12 @@
 - Gather content and design ideas, create wiregrames and mockups.
 - Plan out how the application will work, which routes might be necessary and which pages need to be made.
 
-**2. Setup**
+**2. Setup ✓**
 - Set up the project repository, initialize the Node.js application and install necessary dependencies (Express.js, EJS) ✓
 - Create the application structure, including routes, views and static files
 - Set up the Express.js server and define the necessary routes
 
-**3. Implementing Features**
+**3. Implementing Features ✓**
 - Implement the post creation feature. This includes creating the form on the home page and handling the form submission in the server
 - Implement the post viewing feature. This includes displaying all the post on the home page
 - Implement the post edit feature. This includes using a form to load the existing blog post and allowing the user to edit and save the post
@@ -41,6 +41,10 @@
 - Test the application to ensure that post creation and viewing are working correctly
 
 **4. Styling and Polishing**
-- Style the application. This includes creating a CSS file, linking it to your EJS templates and writing CSS or using Bootstrap/Flexbos/Grid to style the application
+- Style the application. This includes creating a CSS file, linking it to your EJS templates and writing CSS or using Bootstrap/Flexbox/Grid to style the application ✓
 - Test the applicaion on different devices and browsers to ensure the styling works correctly
 - Fix any bugs or issues that came up during testing
+
+# To Fix:
+- The application has not been not tested on different devices and browsers
+- Bug: The css is not been applied on the update-post.ejs, I don't know why or how to fix it
