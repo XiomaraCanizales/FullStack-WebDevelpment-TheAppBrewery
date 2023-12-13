@@ -11,9 +11,11 @@ Repository for all projects on this Bootcamp
 - Node.js
 - Express.js
 - EJS
-<!--- 
-- API's
 - Git & GitHub
+- API's
+
+<!--- 
+
 - SQL
 - MongoDB
 - Mongoose
@@ -35,6 +37,9 @@ Repository for all projects on this Bootcamp
 10. Simon Game (jQuery)
 11. QR code generator (Node.js)
 12. Secrets Project (Node.js & Express)
+13. Taco Town (APIs)
+14. Bored Activity (APIs)
+15. Secrets Project (APIs)
 
 ## Resources
 
