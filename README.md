@@ -15,13 +15,18 @@ Repository for all projects on this Bootcamp
 - API's
 
 <!--- 
-
+- Databases
 - SQL
-- MongoDB
-- Mongoose
-- React.js
-- Deploying a Web Application
+- PostgreSQL
 - Authentication & Security 
+- React.js
+- Web3 Decentralised App (DApp)
+- Build Your First Defi DApp - DBANKK
+- Deploying to the ICP Live Blockchain
+- Building DApps on ICP with a React Frontend
+- Create Your Own Crypto Token
+- Minting NFTs and Building an NFT Marketplace like OpenSea
+- AAA
 -->
 
 ## Projects Made:
