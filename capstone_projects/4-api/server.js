@@ -1,6 +1,12 @@
-import express from 'express'
+/* import express from 'express'
 import axios from 'axios'
-import bodyParser from 'body-parser'
+import bodyParser from 'body-parser' */
+
+const express = require('express')
+const axios = require('axios')
+const bodyParser = require('body-parser')
+
+require('dotenv').config()
 
 const app = express()
 const port = 3000
@@ -25,20 +31,26 @@ app.post('/', async (req, res) => {
                 type
             },
             headers: {
-                'X-Api-Key': '',
+                'X-Api-Key': `${process.env.API_KEY}`,
             },
         }
         const response = await axios(options)
-        /* const sortedData = response.data.sort((a, b) => new Date(a.date) - new Date(b.date)) */
-        const sortedData = response.data.sort((a, b) => {
-            const dateA = new Date(a.date)
-            const dateB = new Date(b.date)
-            return dateA - dateB
-        }).map(holiday => ({
-            ...holiday,
-            formattedType: holiday.type.toLowerCase().replace(/_/g, ' ')
-        }))
-        res.render('holidays.ejs', { data: sortedData })
+
+        if (response.data.length === 0) {
+            const errorMessage = 'No Holidays Found'
+            res.render('holidays.ejs', { errorMessage })
+        } else {
+            /* const sortedData = response.data.sort((a, b) => new Date(a.date) - new Date(b.date)) */
+            const sortedData = response.data.sort((a, b) => {
+                const dateA = new Date(a.date)
+                const dateB = new Date(b.date)
+                return dateA - dateB
+            }).map(holiday => ({
+                ...holiday,
+                formattedType: holiday.type.toLowerCase().replace(/_/g, ' ')
+            }))
+            res.render('holidays.ejs', { data: sortedData })
+        }
     } catch (error) {
         console.error('Request failed: ', error)
         res.status(500).send('Internal server error')

@@ -59,24 +59,23 @@
     </section>
 
     <section class="container holidays-wrapper">
-      <% if (locals.data) { %>
-        <% data.forEach(holiday => { %>
-          <article>
-            <h3><%= holiday.name %></h3>
-            <p>Date: <%= new Date(holiday.date).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric' }) %></p>
-            <p class="holiday-type"><%= holiday.formattedType %></p>
-          </article>
-          <% }) %>
-      <% } %>
+    <% if (locals.data) { %>
+      <% data.forEach(holiday => { %>
+        <article>
+          <h3><%= holiday.name %></h3>
+          <p>Date: <%= new Date(holiday.date).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric' }) %></p>
+          <p class="holiday-type"><%= holiday.formattedType %></p>
+        </article>
+      <% }) %>
       
-      <% if (locals.error) { %>
-        <div id="tag-error" class="tag-error">
-          <!-- Show any errors that were sent from the backend -->
-          <%= error %> 
-        </div>
-      <% } %>
+    <% } else if (locals.errorMessage) { %>
+      <p><%= errorMessage %></p>
 
-    </section>
+    <% } else { %>
+      <p>Loading holidays...</p>
+    <% } %>
+  </section>
+
   </main>
 </body>
 </html>
