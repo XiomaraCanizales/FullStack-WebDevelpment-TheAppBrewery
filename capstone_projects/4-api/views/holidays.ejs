@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Holidays Calendar</title>
+</head>
+<body>
+  <main>
+    <h1>Holidays Calendar</h1>
+
+    <section class="container">
+      <form action="/" method="post">
+        <div class="form-group">
+          <label for="country">Country</label>
+          <input type="text" name="country" id="country" required placeholder="Add Country">
+          <span>*Required</span>
+        </div>
+        
+        <div class="form-group">
+          <label for="year">Year</label>
+          <input type="number" name="year" min="2010" max="2030" step="1" value="2024" />
+        </div>
+        
+        <div class="form-group">
+          <label for="year">Type of Holiday</label>
+          <select name="type">
+            <option value="">All</option>
+            <option value="major_holiday">Major Holiday</option>
+            <option value="public_holiday">Public Holiday</option>
+            <option value="observance">Observance</option>
+            <option value="national_holiday">National Holiday</option>
+            <option value="federal_holiday">Federal Holiday (US only)</option>
+            <option value="season">Season</option>
+            <option value="state_holiday">State Holiday</option>
+            <option value="optional_holiday">Optional Holiday</option>
+            <option value="clock_change_daylight_saving_time">Clock Change Daylight Saving Time</option>
+            <option value="local_holiday">Local Holiday</option>
+            <option value="united_nations_observance">United Nations Observance</option>
+            <option value="observance_christian">Observance Christian</option>
+            <option value="bank_holiday">Bank Holiday</option>
+            <option value="common_local_holiday">Common Local Holiday</option>
+            <option value="national_holiday_christian">National Holiday Christian</option>
+            <option value="christian">Christian</option>
+            <option value="observance_hebrew">Observance Hebrew</option>
+            <option value="jewish_holiday">Jewish Holiday</option>
+            <option value="muslim">Muslim</option>
+            <option value="hindu_holiday">Hindu Holiday</option>
+            <option value="restricted_holiday">Restricted Holiday</option>
+            <option value="official_holiday">Official Holiday</option>
+            <option value="national_holiday_orthodox">National Holiday Orthodox</option>
+            <option value="local_observance">Local Observance</option>
+          </select>
+        </div>
+        
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="container holidays-wrapper">
+      <% if (locals.data) { %>
+        <% data.forEach(holiday => { %>
+          <article>
+            <h3><%= holiday.name %></h3>
+            <p>Date: <%= new Date(holiday.date).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric' }) %></p>
+            <p class="holiday-type"><%= holiday.formattedType %></p>
+          </article>
+          <% }) %>
+      <% } %>
+      
+      <% if (locals.error) { %>
+        <div id="tag-error" class="tag-error">
+          <!-- Show any errors that were sent from the backend -->
+          <%= error %> 
+        </div>
+      <% } %>
+
+    </section>
+  </main>
+</body>
+</html>

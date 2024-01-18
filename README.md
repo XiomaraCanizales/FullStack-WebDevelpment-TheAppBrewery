@@ -31,10 +31,9 @@ Repository for all projects on this Bootcamp
 
 ## Projects Made:
 1. Portfolio Website (HTML)
-2. Resume (HTML)
-3. Motivation Poster (HTML & CSS)
-4. Web Desing Agency Project (HTML & CSS)
-5. Pricing Table (HTML & CSS)
+2. Motivation Poster (HTML & CSS)
+3. Web Desing Agency Project (HTML & CSS)
+4. Pricing Table (HTML & CSS)
 6. Mondrian Project (HTML & CSS)
 7. TingDog (Bootstrap)
 8. Dice Game (HTML, CSS & JS)
@@ -45,6 +44,12 @@ Repository for all projects on this Bootcamp
 13. Taco Town (APIs)
 14. Bored Activity (APIs)
 15. Secrets Project (APIs)
+
+## Capstone Projects
+1. Resume (HTML)
+2. Personal Portfolio (HTML & CSS)
+3. Blog Web Application (Node.js)
+4. API Project (APIs)
 
 ## Resources
 
