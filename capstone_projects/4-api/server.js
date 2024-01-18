@@ -27,7 +27,7 @@ app.post('/', async (req, res) => {
                 type
             },
             headers: {
-                'X-Api-Key': 'YeTbaalQilKNDcCGvAMIYs4a1Zj9HdNcNbxS2pkm',
+                'X-Api-Key': '',
             },
         }
         const response = await axios(options)
