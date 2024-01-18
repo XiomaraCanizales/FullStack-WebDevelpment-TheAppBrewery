@@ -8,8 +8,6 @@ const port = 3000
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: true }))
 
-//const apiKey = 'YeTbaalQilKNDcCGvAMIYs4a1Zj9HdNcNbxS2pkm'
-
 app.get('/', (req, res) => {
     res.render('holidays.ejs')
 })
