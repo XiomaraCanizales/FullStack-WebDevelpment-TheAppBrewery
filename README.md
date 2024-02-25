@@ -13,11 +13,11 @@ Repository for all projects on this Bootcamp
 - EJS
 - Git & GitHub
 - API's
-
-<!--- 
 - Databases
 - SQL
 - PostgreSQL
+
+<!--- 
 - Authentication & Security 
 - React.js
 - Web3 Decentralised App (DApp)
@@ -44,6 +44,10 @@ Repository for all projects on this Bootcamp
 13. Taco Town (APIs)
 14. Bored Activity (APIs)
 15. Secrets Project (APIs)
+16. Blog API Project (APIs)
+17. World Quiz (PostgreSQL)
+18. Flags Quiz (PostgreSQL)
+19. Travel Tracker (PostgreSQL)
 
 ## Capstone Projects
 1. Resume (HTML)
